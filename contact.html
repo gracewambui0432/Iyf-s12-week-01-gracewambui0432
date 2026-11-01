@@ -1,1 +1,119 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact me</h1>
+        <p>I would love to hear from you. Please fill in the form below.</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Ella Wangui"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="grace@gmail.com"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="0712 345 678">
+                </div>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Message Details</legend>
+
+                <div>
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">-- Select a subject --</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Your Message:</label>
+                    <br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        placeholder="Write your message here (at least 50 characters)..."
+                        minlength="50"
+                        required></textarea>
+                </div>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Newsletter Subscription</legend>
+
+                <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="newsletter"
+                    value="yes">
+
+                <label for="newsletter">
+                    Subscribe to our newsletter for updates and news.
+                </label>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Submit Message</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Grace Wambui</p>
+    </footer>
+
+</body>
+</html>
+
